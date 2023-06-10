@@ -1,10 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-import "./style.css"
-function App() {
-  return (
-    <div className="Hello"><h1>Hello</h1></div>
+import Navbar from './components/Navbar';
+import './App.css';
+import Main from './components/Main';
+//import "./style.css"
+function App(){
+  return(
+    <div className='container'>
+      <div className='content'>
+        <Navbar/>
+        <Main/>
+      </div>
+      
+    </div>
+     
   );
 }
 
